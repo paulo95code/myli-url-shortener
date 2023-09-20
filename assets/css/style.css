@@ -1,0 +1,27 @@
+   body {
+         background-color: #000000;
+         color: #FFFFFF;
+         padding-bottom: 50px; /* Espaço para o footer */
+         }
+         /* Estilo do footer */
+         footer {
+         background-color: #0D6EFD;
+         color: #ffffff;
+         text-align: center;
+         padding: 10px 0;
+         }
+         ::placeholder {
+         color: #CCCCCC !important;
+         }
+         /* Margem superior para dispositivos responsivos */
+         @media (max-width: 768px) {
+         .mt-30 {
+         margin-top: 40% !important; /* 30% de margem superior em dispositivos responsivos */
+         }
+         }
+         /* Margem superior para telas maiores (desktop) */
+         @media (min-width: 769px) {
+         .mt-30 {
+         margin-top: 10% !important; /* 30% de margem superior em telas maiores */
+         }
+         }

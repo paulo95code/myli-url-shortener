@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:title" content="Myli - Encurtador de URL">
+      <meta property="og:description" content="Encurte URLs facilmente com a Myli, o encurtador de URL rápido e confiável.">
+      <meta property="og:image" content="https://myli.site/myli/images/apresenta.png">
+      <meta property="og:url" content="https://myli.site/">
+      <title>Myli - Encurtador de URL</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="icon" href="assets/images/favicon.png" type="image/png">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/qrcode-svg@1.0.5/dist/qrcode.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.0-beta.5/rgbcolor.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.0-beta.5/canvg.min.js"></script>
+      <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      <script src="assets/js/html2canvas.js"></script>
+      <script src="assets/js/shortener.js"></script>
+
+     
+   </head>
+   <body>
+      <div class="container">
+         <div class="row justify-content-center align-items-center mt-30">
+            <div class="col-md-6">
+               <div class="text-center">
+                  <img src="assets/images/logo.png" style="width: 90%; max-width: 600px;">
+               </div>
+               <form id="shortenForm" class="mt-3">
+                  <div class="form-group">
+                     <label for="originalUrl" style="color: #CCCCCC;">Cole sua URL:</label>
+                     <input type="url" class="form-control" id="originalUrl" placeholder="Digite ou cole..." required
+                        style="background-color: #000000; border-color: #FFFFFF;color: #FFFFFF">
+                  </div>
+                  <br>
+                  <div class="form-group">
+                     <label for="customShortCode" style="color: #CCCCCC;">Personalize seu Link:</label>
+                     <div class="input-group">
+                        <div class="input-group-prepend">
+                           <span class="input-group-text"
+                              style="background-color: #CCCCCC; border-radius: 5px 0px 0px 5px;">myli.site/</span>
+                        </div>
+                        <input type="text" class="form-control" id="customShortCode" placeholder="Personalize aqui..."
+                           style="background-color: #000000; border-color: #FFFFFF;color: #FFFFFF">
+                        <div class="input-group-append">
+                           <button type="submit" class="btn btn-primary" style="border-radius: 0px 5px 5px 0px;">Encurtar
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+               <div id="shortenedUrl" class="mt-3 text-center"></div>
+               <!-- Adicione esta div para exibir o QR-CODE -->
+               <div id="qrCodeContainer" class="mt-3 text-center">   </div>
+               <br><br>
+               <!-- Botão de download -->
+               <a id="downloadLink" style="display: none;" download="qrcode.png">
+               <button class="btn btn-primary">
+               <i class="fas fa-download"></i> Baixar QR-CODE
+               </button>
+               </a>
+            </div>
+         </div>
+      </div>
+      <footer class="fixed-bottom">
+         © 2023 <strong>Myli</strong> - Todos os direitos reservados
+         <p style="font-size: 12px;">Desenvolvido por <strong>😀 <a href="https://www.instagram.com/pauloanttonioo/"
+            style="color: #FFFFFF">Paulo Santos</a></strong></p>
+      </footer>
+      <script src="assets/js/shortener.js"></script>
+   </body>
+</html>
