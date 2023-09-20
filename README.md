@@ -1,5 +1,6 @@
 # Myli - Encurtador de URL
-![Myli Logo](URL_DA_IMAGEM_DO_LOGO)
+![Myli Logo](https://github.com/paulo95code/myli-url-shortener/blob/main/assets/images/readme.png)
+
 
 Myli é um encurtador de URL rápido e confiável que permite personalizar seus links e gera QR Codes para facilitar o compartilhamento.
 
@@ -18,8 +19,7 @@ Myli é um encurtador de URL rápido e confiável que permite personalizar seus 
 - Totalmente gratuito e de código aberto.
 
 ## Capturas de Tela
-![Myli Screenshot 1](URL_DA_CAPTURA_DE_TELA_1)
-![Myli Screenshot 2](URL_DA_CAPTURA_DE_TELA_2)
+![Myli Screenshot 1](https://github.com/paulo95code/myli-url-shortener/blob/main/assets/images/encurtador.JPG)
 
 ## Como Usar
 1. Acesse Myli em seu navegador.
