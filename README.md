@@ -24,7 +24,7 @@ Myli é um encurtador de URL rápido e confiável que permite personalizar seus 
 ## Como Usar
 1. Acesse Myli em seu navegador.
 2. Cole sua URL original na caixa de texto.
-3. Personalize seu link (opcional).
+3. Personalize seu link.
 4. Clique em "Encurtar" para gerar a URL encurtada e o QR Code.
 5. Copie a URL encurtada para compartilhamento ou baixe o QR Code.
 
